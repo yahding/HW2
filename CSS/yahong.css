@@ -1,0 +1,84 @@
+/* body formatting */
+
+body { 	color: black;
+		background: #C58917;
+		font-family: Gill Sans, sans-serif,Adobe Garamond Pro Bold,AR DELANEY;
+		font-size: 12pt;
+		margin: 1 auto; 
+	}
+h1.title {
+			font-size: 36pt;
+			font-weight:bold;
+			text-align:center;
+			margin-top: 15px;
+			margin-bottom: 0px; 
+		}
+		
+h2.titletop {
+			font-size: 15pt;
+			font-weight: normal;
+			text-decoration: underline;
+			font-variant: small-caps;
+			padding-bottom: 0px;
+			margin-bottom: 25px;
+			}
+h2.title {
+			font-size: 15pt;
+			font-weight: normal;
+			text-decoration: underline;
+			font-variant: small-caps;
+			padding-bottom: 0px;
+			margin-top: 30px;
+			margin-bottom: 25px;
+		}	
+h3 { margin-top: 10px;
+		margin-bottom: 0px;
+		}
+		
+ul { margin:0px; padding:0; list-style:none; }
+li { margin-left:20px; margin-bottom:20px; padding:0;  }
+
+a { text-decoration:none; font-weight: bold; }
+a:link, a:visited { color: #fff; }	
+
+#wrap {width:1240px; margin:0 auto; background:#c9c; border-left: solid 2px black; border-right: solid 2px black;  }
+
+#header { background:#728C00; padding:5px 10px;  }
+
+#nav { background:#c99; padding:5px 10px; text-align:center; }
+#nav li  { display: inline; list-style-type: none; padding-right: 20px; font-size: 14pt; font-weight:normal; font-variant:small-caps;}
+
+#main {background:#7486ED; float:left; width:902px; padding-top:0px; padding-left:10px; padding-right:0px; padding-bottom:10px; margin-bottom:0; height:1205px; }
+#left_sidebar { background:#7486ED; float:left; width:300px; padding:10px; }
+
+#footer { background:#cc9; clear:both; padding:5px 10px; }
+#footer p { margin:0; font-style:italic; text-align:center; font-size:small; }
+
+a:link.resume , a:visited.resume  { color:black; text-decoration:underline; }	
+a:hover, a:hover.resume { color: #fff; background-color: #036; text-decoration: underline; }	
+
+
+/* Star hack for IE 6 bug */
+* html #footer { height:1px; }
+
+/* Resume formatting */
+#resume {background:#808000; width:800px; margin:auto; padding:20px; text-align:left; }
+p.time{ font-style: italic}
+p.formatbold{font-weight: Bold}
+.printonly { display:none; }
+#printheader { display:none; }
+
+td{text-align: center; height:16;}
+
+/* Photo formatting */
+.polaroid {
+			border: solid 1px black; 
+			background: #fff;
+			width: 250px;
+			padding: 20px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			text-align: center;
+		}

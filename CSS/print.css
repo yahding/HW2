@@ -1,0 +1,26 @@
+body { background: white; font-size: 10pt; font-family:Helvetica,Arial,sans-serif; }
+img { display: none; }
+#resume {border: none; }
+#resume h2 { text-align:left; font-size:14pt; font-variant:normal; text-decoration:none; line-height:1em; }
+#printheader h1 { text-align:center; font-size:16pt; }
+table{ display:none; }
+ul { margin:0px; padding:0; list-style:disc; }
+li { margin-left:20px; margin-bottom:5px; padding:0;  }
+
+#header, #nav, #sidebar, #footer { display: none; }
+#wrap {width: auto; margin:-25pt; border:0; }
+#printheader { display:block; text-align:center; float:none !important; padding-top:50px; padding-bottom:0;}
+.printonly {display:block;}
+ a:link, a:visited { color: black; background: transparent;}
+#resume {
+   width: auto;
+   margin: 0;
+   padding: 25pt;
+   border: 0; 
+   float: none !important;
+   color: black;
+   background: transparent none;
+   }   
+ 
+   
+ 
