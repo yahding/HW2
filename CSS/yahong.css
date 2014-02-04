@@ -4,7 +4,7 @@ body { 	color: black;
 		background: #C58917;
 		font-family: Gill Sans, sans-serif,Adobe Garamond Pro Bold,AR DELANEY;
 		font-size: 12pt;
-		margin: 1 auto; 
+		margin: auto; 
 	}
 h1.title {
 			font-size: 36pt;
@@ -68,7 +68,7 @@ p.formatbold{font-weight: Bold}
 .printonly { display:none; }
 #printheader { display:none; }
 
-td{text-align: center; height:16;}
+td{text-align: center; height:16px;}
 
 /* Photo formatting */
 .polaroid {
